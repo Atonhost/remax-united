@@ -38,7 +38,7 @@ include 'cn/funciones.php';
 
         <div class="row">
             <div class="span9">
-                <h1 class="page-header">Inmuebles Destacados</h1>
+                <h1 class="page-header">Ultimos Propiedades</h1>
                 <?php require_once 'helpers/properties-grid-soap.php'; ?>
             </div>
             <div class="sidebar span3">
