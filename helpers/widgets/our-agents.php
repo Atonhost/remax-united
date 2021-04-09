@@ -15,7 +15,7 @@ catch(Exception $e) {
 }
 $topage=new SimpleXMLElement($agent);
 //echo $topage->USER[0]->ID;
-for ($i=0; $i < 4 ; $i++) 
+for ($i=0; $i < 8 ; $i++)
 {  ?>
 		<div class="agent">
             <div class="image">

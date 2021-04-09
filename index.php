@@ -18,7 +18,7 @@ include 'cn/funciones.php';
 <meta name="description" content="Alquiler, compra y venta de inmuebles en Perú: casas, apartamentos, terrenos y otras propiedades. ¡Nadie vende mas bienes raices que RE/MAX!">
 <meta name="theme-color" content="#05418E" />
 <meta name="author" content="Remax-United">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
 <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
@@ -39,13 +39,11 @@ include 'cn/funciones.php';
         <div class="row">
             <div class="span9">
                 <h1 class="page-header">Inmuebles Destacados</h1>
-                <?php require_once 'helpers/properties-grid.php'; ?>
+                <?php require_once 'helpers/properties-grid-soap.php'; ?>
             </div>
             <div class="sidebar span3">
                 <?php require_once 'helpers/widgets/our-agents.php'; ?>
-                <div class="hidden-tablet">
-                    <?php require_once 'helpers/widgets/properties.php'; ?>
-                </div>
+
             </div>
         </div>
     </div>
