@@ -13,7 +13,7 @@
         }
         $topage=new SimpleXMLElement($pro);
 
-        for ($i=0; $i < 9 ; $i++)
+        for ($i = count($topage)-1; $i >count($topage)-10 ; $i--)
         {  ?>
         <div id="norma" style="width:auto; float:left; margin-top:20px;">
             <div class="property span3">
